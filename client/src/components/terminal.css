@@ -1,0 +1,33 @@
+/* terminal-prism.css */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #00ff00; /* Bright green */
+  background: #000000; /* Pure black */
+  font-family: 'Fira Code', monospace;
+  font-size: 0.75rem; /* text-xs */
+  line-height: 1.4;
+  tab-size: 2;
+  white-space: pre;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #00ff00; /* Keep comments green too */
+  opacity: 0.6;
+}
+
+.token.keyword,
+.token.operator,
+.token.function,
+.token.class-name,
+.token.boolean,
+.token.number,
+.token.string,
+.token.punctuation,
+.token.constant,
+.token.property,
+.token.symbol {
+  color: #00ff00; /* All code in green */
+}
